@@ -11,7 +11,8 @@
     <script src="https://kit.fontawesome.com/a379ce572a.js" crossorigin="anonymous"></script>
     <title>Baris's Personel Site</title>
 </head>
-<body>
+<body style="background-color:#EEEEEE;">
+   
     <table cellspacing="20" >
         <tr>
             <td>
@@ -21,7 +22,7 @@
             <td>
                 <h1>Barış Karapelit</h1>
                 <p<em>I'm not a founder or CTO, I'm just </em><strong> <a href="https://t.ly/ZB2I">unemployed</a>.</strong></p>
-                <p>I'm a computer engineer, C++ and Java developer. I live in İstanbul. I ❤️ coffee and brewing tea. </p>
+                <p>I'm a computer engineer, C++ and Java developer.  I<div id="div1" class="fa" ></div> in İstanbul. I ❤️ coffee and brewing tea. </p>
             </td>
         </tr>
     </table>
@@ -135,6 +136,24 @@
    <hr>
     <a href="hobbies.html" style="color: black; font-size:16px ;">My Hobbies</a>
     <a href="contact.html" style="color: black; font-size:16px ;">Contact Me</a>
+    <script>
+        function hand() {
+          var a;
+          a = document.getElementById("div1");
+          a.innerHTML = "&#xf25a;";
+          setTimeout(function () {
+              a.innerHTML = "&#xf256;";
+            }, 500);
+          setTimeout(function () {
+              a.innerHTML = "&#xf259;";
+            }, 1000);
+          setTimeout(function () {
+              a.innerHTML = "&#xf256;";
+            }, 1500);
+        }
+        hand();
+        setInterval(hand, 2000);
+        </script>
 
 </body>
 </html>
