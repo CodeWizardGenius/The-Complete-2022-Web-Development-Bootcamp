@@ -22,7 +22,7 @@ hr
     width: 5%;
     
 } 
-img
+img:hover
 {
     background-color:red;
     width: 130px;
@@ -43,4 +43,12 @@ background-color: aqua;
 #heading
 {
     color: rebeccapurple;
+}
+.circular
+{
+    border-radius: 100%;
+}
+#big
+{
+    font-size: 100px;
 }
