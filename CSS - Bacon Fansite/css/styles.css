@@ -1,4 +1,4 @@
-
+/********************TAG SELECTORS**********************/
 body
 {
     background-color:#EAF6F6;
@@ -24,5 +24,23 @@ hr
 } 
 img
 {
-    height: auto;
+    background-color:red;
+    width: 130px;
+}
+/********************TAG SELECTORS**********************/
+
+.bacon
+{
+background-color: aqua;
+
+}
+.broccoli
+{
+    background-color: aquamarine;
+    
+}
+/******************ID SELECTORS***********************/
+#heading
+{
+    color: rebeccapurple;
 }
