@@ -6,30 +6,29 @@ h1{
     margin-top: 0px;
 }
 
-div
+/* img
 {
-    background-color: #e4f9f5;
-    height: 200px;
-    width: 200px;
-}
-
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+} */
 .top-container
 {
-    background-color: #e4f9f5;
-    border: solid 10px ;
-    padding: 20px;
+    background-color: #e4f9f5;  
+    /* padding: 20px; */
 
 }
 .middle-container
 {
-    border: solid 20px ;
+    height: 200px;
+    width: 200px;
     background-color: blanchedalmond;
-    margin-left: 260px;
+    
 }
 .bottom-container
 {
-    border: solid 10px ;
+    height: 200px;
+    width: 200px;
     background-color:blueviolet;
-    margin-left: 500px;;
 
 }
