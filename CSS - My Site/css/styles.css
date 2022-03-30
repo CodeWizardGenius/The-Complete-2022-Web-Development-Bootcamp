@@ -4,6 +4,8 @@ body
     text-align: center;
     font-family: 'Merriweather', serif;
     /* font-size: 25px; */
+    background-color:#EAF6F6 ;
+    
     
 }
 h1{
@@ -26,7 +28,7 @@ h2
 h3
 {
     font-family: 'Montserrat', serif;
-    color: #11999E;
+    color: #66BFBF;
 }
 /* img
 {
@@ -47,13 +49,16 @@ h3
 }
 .middle-container
 {
-    
-   
+ padding-top: 50px;   
+ background-color: white;
+ 
 }
 .bottom-container
 {
     
-   
+   background-color: #66BFBF;
+   height: 200px;
+   margin: 0px;
 
 }
 .pro
@@ -78,4 +83,43 @@ h3
 .footer-link
 {
     color: #11999E;
+}
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+  
+}
+.code-img
+{
+width: 25%;
+float: left;
+margin-right: 30px;
+}
+.chili-img
+{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+hr
+{
+    background-color: EAF6F6;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+    
+} 
+.middle-container p
+{
+ color: #40514E;
+ 
+}
+.contact-me
+{
+   line-height: 30px;
 }
