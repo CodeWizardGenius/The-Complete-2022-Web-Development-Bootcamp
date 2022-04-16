@@ -11,10 +11,15 @@ body
 
 .container-fluid{
 padding: 3% 15%!important;
+
 }
 
 /* =================================================================*/
-
+.menu{
+  font-family: 'Poppins', sans-serif !important;
+  /*'bold'*/
+  
+}
 /* =================================================================*/
 
 h1 { 
@@ -23,6 +28,14 @@ h1 {
     line-height: 1.5 !important;
     font-weight: 900 !important;
     }
+
+h3
+{
+  font-family: "Montserrat" !important;
+}
+p{
+  color:#8f8f8f !important;
+}
 /* Navigation Bar */
 
 .navbar{
@@ -41,7 +54,7 @@ h1 {
 
 .nav-link{
   font-size: 1.2rem;
-  font-family: 'Montserrat-Light', serif;
+  /* font-family: 'Montserrat-Light', sans-serif; */
 }
 /* Navigation Bar */
 
@@ -58,4 +71,22 @@ h1 {
 {
   width:60%;
   transform: rotate(25deg);
+}
+
+/* Feature Section */
+
+#features
+{
+padding:7% 15%;
+}
+.feature-box{
+  text-align: center !important;
+  padding: 4.5%;
+}
+.icon{
+color: #ef8172;
+margin-bottom:1rem;
+}
+.icon:hover{
+  color:#ff4c68;
 }
