@@ -90,3 +90,10 @@ margin-bottom:1rem;
 .icon:hover{
   color:#ff4c68;
 }
+
+/* testimonials section */
+
+#testimonials
+{
+  padding:7% 15% ;
+}
