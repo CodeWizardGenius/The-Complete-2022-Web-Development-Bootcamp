@@ -22,12 +22,21 @@ padding: 3% 15%!important;
 }
 /* =================================================================*/
 
-h1 { 
+h1 
+{ 
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem !important ; 
     line-height: 1.5 !important;
     font-weight: 900 !important;
-    }
+}
+
+
+h2
+{
+font-family:"Montserrat",Arial,sans-serif;
+font-size: 3rem;
+line-height: 1.5;
+}
 
 h3
 {
@@ -96,4 +105,28 @@ margin-bottom:1rem;
 #testimonials
 {
   padding:7% 15% ;
+  text-align:center;
+  background-color:#ef8172;
+  color:#fff;
+  
+
+}
+.testimonial-image
+{
+  width:10%;
+  border-radius: 100%;
+  margin:20px ;
+}
+/* Press Section */
+#press
+{
+  background-color:#ef8172;
+  text-align:center;
+  padding-bottom: 3%;
+
+}
+.press-logo
+{
+  width:50%;
+  margin:20px 20px 50px !important ;
 }
