@@ -104,7 +104,7 @@ margin-bottom:1rem;
 
 #testimonials
 {
-  padding:7% 15% ;
+  
   text-align:center;
   background-color:#ef8172;
   color:#fff;
@@ -117,6 +117,12 @@ margin-bottom:1rem;
   border-radius: 100%;
   margin:20px ;
 }
+.carousel-item
+{
+  padding:7% 15% ;
+
+}
+
 /* Press Section */
 #press
 {
@@ -129,4 +135,15 @@ margin-bottom:1rem;
 {
   width:15%;
   margin:20px 20px 50px !important ;
+}
+
+/* Pricing Section */
+#pricing
+{
+  padding:100px;
+  text-align:center;
+}
+.pricing-column
+{
+  padding:3% 2%;
 }
