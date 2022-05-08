@@ -166,3 +166,12 @@ margin-bottom:1rem;
 
   }
 }
+#cta
+{
+  text-align:center;
+  padding:100px;
+
+  background-color: #ff4c68;
+  color:#fff;
+
+}
