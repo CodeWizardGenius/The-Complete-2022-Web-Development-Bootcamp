@@ -3,25 +3,6 @@ body
   font-family: 'Montserrat' !important;
 }
 
-
-#title{
-    background-color: #ff4c68;
-    color:#fff;
-}
-
-.container-fluid{
-padding: 3% 15% 7%!important;
-
-}
-
-/* =================================================================*/
-.menu{
-  font-family: 'Poppins', sans-serif !important;
-  /*'bold'*/
-  
-}
-/* =================================================================*/
-
 h1 
 { 
     font-family: 'Montserrat', sans-serif;
@@ -45,6 +26,26 @@ h3
 p{
   color:#8f8f8f !important;
 }
+
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+}
+
+.container-fluid{
+padding: 3% 15% 7%!important;
+
+}
+
+/* =================================================================*/
+.menu{
+  font-family: 'Poppins', sans-serif !important;
+  /*'bold'*/
+  
+}
+/* =================================================================*/
+
+
 /* Navigation Bar */
 
 .navbar{
@@ -185,6 +186,11 @@ text-align:center !important;
 }
 .social-icon{
   padding: 20px 10px !important;
+  font-size: 25px;
+
+}
+.copyright{
+  font-size:20px;
 }
 @media (max-width:1028px)
 {
