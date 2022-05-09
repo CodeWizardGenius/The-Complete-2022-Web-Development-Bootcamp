@@ -180,8 +180,8 @@ margin-bottom:1rem;
 /* Footer Section */
 
 #footer{
-padding:7% 15% ;
-text-align:center;
+padding:7% 15% !important ;
+text-align:center !important;
 }
 .social-icon{
   padding: 20px 10px;
