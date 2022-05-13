@@ -44,10 +44,19 @@ p{
   
   }
 
+/* Section */
+.colored-section
+{
+  background-color:#ff4c68;
+  color:#fff;
 
+}
 
+.white-section
+{
+  background-color: #fff;
 
-
+}
 .icon-heading:hover 
 {
   
@@ -89,7 +98,8 @@ p{
   /* font-family: 'Montserrat-Light', sans-serif; */
 }
 /* Navigation Bar */
-
+ .
+ 
 /* Downlaod button */
 .download-button
 {
@@ -122,7 +132,6 @@ p{
 
 #features
 {
-background-color: #fff;
 position: relative;
 
 }
@@ -146,7 +155,6 @@ margin-bottom:1rem;
 #testimonials
 {
   background-color:#ef8172;
-  color:#fff;
 }
 .testimonial-text{
   font-size:3rem;
@@ -190,13 +198,7 @@ margin-bottom:1rem;
 {
   padding:3% 2%;
 }
-#cta
-{
-  padding:100px;
-  background-color: #ff4c68;
-  color:#fff;
 
-}
 /* CTA Section  */
 #cta
 {
