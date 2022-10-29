@@ -1,1 +1,1 @@
-https://bariskarapelit.github.io/The-Complete-2022-Web-Development-Bootcamp/
+[My Portfolio](https://bariskarapelitportfolio.click/)
